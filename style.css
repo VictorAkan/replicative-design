@@ -1,0 +1,451 @@
+*
+{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+}
+#nav-bar {
+    background-color: rgb(231, 227, 227);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand {
+    color: purple;
+    font-family: cursive;
+}
+button {
+    outline: none !important;
+    border: none !important;
+}
+.navbar-nav li {
+    padding: 0 10px;
+}
+.navbar-nav li a {
+    font-weight: 600;
+}
+.active {
+    color: black;
+}
+.navbar-brand {
+    margin-left: 113px;
+    margin-top: 50px;
+}
+.navbar-nav {
+    margin-left: 120px;
+    margin-top: 50px;
+}
+#home {
+    background-color: rgb(231, 227, 227);
+}
+.promo-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    color: rgb(36, 113, 175);
+}
+.img-dim {
+    width: 400px;
+    height: 400px;
+}
+.text-vid {
+    margin-top: 8px;
+}
+.row-f-btn {
+    padding-bottom: 90px;
+    padding-top: 30px;
+}
+.red-btn {
+    background-color: orangered;
+    height: 40px;
+    border: 1px solid orangered;
+    color: white;
+    box-shadow: 0 3px 10px orangered;
+}
+.red-s-btn {
+    background-color: orangered;
+    height: 40px;
+    border: 1px solid orangered;
+    width: 40px;
+    border-radius: 55%;
+    box-shadow: 0 3px 10px orangered;
+}
+.fa-play {
+    color: white;
+}
+.side-img {
+    width: 350px;
+    margin-top: 50px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow: -10px 10px 20px 20px  rgb(228, 227, 227);
+}
+.mega-title {
+    color: rgb(19, 52, 78);
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+.mega-text {
+    padding-top: 15px;
+}
+.red-t-btn {
+    background-color: orangered;
+    height: 40px;
+    border: 1px solid orangered;
+    color: white;
+    box-shadow: 0 3px 10px orangered;
+    margin-top: 30px;
+}
+.sec-ad {
+    padding-top: 20px;
+}
+.f-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.s-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 58px;
+}
+.t-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 3px;
+}
+.l-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 3px;
+}
+.stack-f {
+    padding-top: 20px;
+}
+.first-f-row {
+    padding-left: 49px;
+    padding-top: 70px;
+}
+.vid-real {
+    margin-top: 70px;
+    border-radius: 10px;
+}
+.embed-youtube {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 29px;
+}
+.centered {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.center-down {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+}
+.play-png {
+    position: absolute;
+    left: 50%;
+    top: 63%;
+    transform: translate(-50%, -50%);
+}
+.center-last {
+    position: absolute;
+    left: 50%;
+    top: 76%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+.vid-player {
+    width: 100px;
+    height: 100px;
+}
+.ply-btn {
+    background-color: transparent;
+}
+.intro {
+    margin-top: 30px;
+}
+.card {
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.sh-card {
+    box-shadow: 0 15px 6px -6px rgb(223, 222, 222);
+}
+.card-img-height {
+    height: 200px;
+    border-radius: 2px;
+}
+.f-card-t {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 25px;
+    justify-content: space-between;
+}
+.mega-card {
+    color: rgb(19, 52, 78);
+    font-size: 25px;
+}
+.mega-r-card {
+    color: red;
+    font-size: 25px;
+}
+.card-lorem {
+    padding-left: 15px;
+}
+.l-intro {
+    margin-top: 60px;
+}
+.ab-title {
+    color: rgb(19, 52, 78);
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 80px;
+}
+.c-fluid-img {
+    height: 300px;
+}
+.sub-div {
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 100px;
+    box-shadow: 5px 5px 5px 5px  rgb(228, 227, 227);
+}
+.sub-intro {
+    color: rgb(19, 52, 78);
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 60px;
+}
+.light-div {
+    background-color: rgb(226, 225, 225);
+    border: 1px solid rgb(226, 225, 225);
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    height: 50px;
+    padding-right: 200px;
+    padding-left: 20px;
+}
+.orange-div {
+    background-color: orangered;
+    border: 1px solid orangered;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    color: white;
+    height: 50px;
+}
+.f-btn {
+    align-self: center;
+    display: flex;
+    text-align: center;
+}
+.s-btn {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.q-btn {
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+#l-section {
+    background-color: rgb(231, 227, 227);
+    margin-top: 20px;
+    padding-top: 30px;
+}
+.cont-i {
+    height: 20px;
+    width: 20px;
+}
+.s-med-div {
+    gap: 2rem;
+    padding-left: 120px;
+    padding-top: 35px;
+}
+.med-exp {
+    padding-left: 120px;
+    padding-top: 50px;
+}
+.l-side-img {
+    height: 330px;
+    margin-top: -40px;
+}
+.nav-share {
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        margin-left: 20px;
+    }
+    .centered {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .center-down {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 10px;
+    }
+    .embed-youtube {
+        position: relative;
+        text-align: center;
+        color: white;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .s-img {
+        margin-left: 1px;
+    }
+    .l-img {
+        margin-left: 1px;
+    }
+    .f-img {
+        margin-left: 1px;
+    }
+    .light-div {
+        background-color: rgb(226, 225, 225);
+        border: 1px solid rgb(226, 225, 225);
+        border-radius: 9px;
+        height: 50px;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    .orange-div {
+        background-color: orangered;
+        border: 1px solid orangered;
+        border-radius: 9px;
+        height: 50px;
+    }
+    .s-med-div {
+        gap: 2rem;
+        padding-left: 30px;
+        padding-top: 35px;
+    }
+    .med-exp {
+        padding-left: 30px;
+        padding-top: 50px;
+    }
+    .l-side-img {
+        display: none;
+    }
+}
+@media (max-width:603px) {
+    .counter-img {
+        width: 300px;
+    }
+}
+@media (max-width:299px) {
+    .counter-img {
+        width: 200px;
+    }
+}
+@media (max-width:456px) {
+    .centered {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .center-down {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 10px;
+    }
+    .embed-youtube {
+        position: relative;
+        text-align: center;
+        color: white;
+        font-weight: 500;
+        font-size: 15px;
+    }
+}
+@media (max-width:356px) {
+    .centered {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .center-down {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 9px;
+    }
+    .embed-youtube {
+        position: relative;
+        text-align: center;
+        color: white;
+        font-weight: 500;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1350px) and (min-width:1300px) {
+    .vid-real {
+        width: 800px;
+    }
+}
+@media (max-width: 1299px) and (min-width:1000px) {
+    .vid-real {
+        width: 700px;
+    }
+}
+@media (max-width: 999px) and (min-width:800px) {
+    .vid-real {
+        width: 500px;
+    }
+}
+@media (max-width: 799px) and (min-width:769px) {
+    .vid-real {
+        width: 500px;
+    }
+}
+@media (max-width: 768px) {
+    .vid-real {
+        width: 500px;
+    }
+}
+@media (max-width: 524px) {
+    .vid-real {
+        width: 400px;
+    }
+}
+@media (max-width: 425px) {
+    .vid-real {
+        width: 300px;
+    }
+}
+@media (max-width: 326px) {
+    .vid-real {
+        width: 250px;
+    }
+}
+
+
+
+
