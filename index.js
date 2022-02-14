@@ -15,8 +15,8 @@ let receiveValGift=true;
 let BigNum=2346548369678796578653434;
 
 // Arrays
-let studentNames = ['chuks','bright','Victor','Prisca'];
-alert(studentNames)
+let studentNames = ['chuks','bright','Victor','Prisca','You'];
+alert(studentNames[4])
 
 // Objects
 let bright = {
